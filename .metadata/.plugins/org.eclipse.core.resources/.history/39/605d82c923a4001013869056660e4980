@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.prFile version="1">
+    <org.eventb.core.prProof name="INITIALISATION/inv0/INV"/>
+    <org.eventb.core.prProof name="INITIALISATION/inv1/INV"/>
+    <org.eventb.core.prProof name="monter/th1/THM"/>
+    <org.eventb.core.prProof name="descendre/th1/THM"/>
+    <org.eventb.core.prProof name="remonter/th1/THM"/>
+    <org.eventb.core.prProof name="redescendre/th1/THM"/>
+</org.eventb.core.prFile>

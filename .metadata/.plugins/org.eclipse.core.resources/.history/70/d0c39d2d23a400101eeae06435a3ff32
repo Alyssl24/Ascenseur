@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="false" org.eventb.core.configuration="org.eventb.core.fwd">
+    <org.eventb.core.scRefinesMachine name="'" org.eventb.core.scTarget="/Ascenseur/m1_deplacement.bcm" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.refinesMachine#_6LUO4JSlEfCGx-5Hhu_UBA"/>
+    <org.eventb.core.scEvent name="(" org.eventb.core.accurate="false" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_AofGoJSmEfCGx-5Hhu_UBA">
+        <org.eventb.core.scRefinesEvent name="'" org.eventb.core.scTarget="/Ascenseur/m1_deplacement.bcm|org.eventb.core.scMachineFile#m1_deplacement|org.eventb.core.scEvent#'" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_AofGoJSmEfCGx-5Hhu_UBA"/>
+    </org.eventb.core.scEvent>
+    <org.eventb.core.scEvent name=")" org.eventb.core.accurate="false" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="changerDirection" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5pSlEfCGx-5Hhu_UBA"/>
+    <org.eventb.core.scEvent name="*" org.eventb.core.accurate="false" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="monter" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA">
+        <org.eventb.core.scRefinesEvent name="'" org.eventb.core.scTarget="/Ascenseur/m1_deplacement.bcm|org.eventb.core.scMachineFile#m1_deplacement|org.eventb.core.scEvent#(" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA|org.eventb.core.refinesEvent#_GdYlUJ-aEfCkOu13CJqfYQ"/>
+    </org.eventb.core.scEvent>
+    <org.eventb.core.scEvent name="+" org.eventb.core.accurate="false" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.label="descendre" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA">
+        <org.eventb.core.scRefinesEvent name="'" org.eventb.core.scTarget="/Ascenseur/m1_deplacement.bcm|org.eventb.core.scMachineFile#m1_deplacement|org.eventb.core.scEvent#(" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA|org.eventb.core.refinesEvent#_GdaagJ-aEfCkOu13CJqfYQ"/>
+    </org.eventb.core.scEvent>
+</org.eventb.core.scMachineFile>
