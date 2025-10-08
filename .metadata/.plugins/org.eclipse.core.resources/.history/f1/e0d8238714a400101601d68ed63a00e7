@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="1">
+    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="Direction" org.eventb.core.type="ℙ(Direction)"/>
+        <org.eventb.core.poIdentifier name="HAUT" org.eventb.core.type="Direction"/>
+        <org.eventb.core.poIdentifier name="oppose" org.eventb.core.type="ℙ(Direction×Direction)"/>
+        <org.eventb.core.poIdentifier name="BAS" org.eventb.core.type="Direction"/>
+        <org.eventb.core.poPredicate name="Directioo" org.eventb.core.predicate="partition(Direction,{HAUT},{BAS})" org.eventb.core.source="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_BabdwpSiEfCGx-5Hhu_UBA"/>
+        <org.eventb.core.poPredicate name="Directiop" org.eventb.core.predicate="oppose∈Direction → Direction" org.eventb.core.source="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_TZCi8JSjEfCGx-5Hhu_UBA"/>
+        <org.eventb.core.poPredicate name="Directioq" org.eventb.core.predicate="oppose={HAUT ↦ BAS,BAS ↦ HAUT}" org.eventb.core.source="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_BacE0JSiEfCGx-5Hhu_UBA"/>
+        <org.eventb.core.poIdentifier name="E" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poPredicate name="Directior" org.eventb.core.predicate="E∈ℕ1" org.eventb.core.source="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.axiom#_LN6_0JScEfCqMcvWwiKvew"/>
+        <org.eventb.core.poPredicate name="Directios" org.eventb.core.predicate="E=4" org.eventb.core.source="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.axiom#_ouX7EJSeEfCqMcvWwiKvew"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="direction" org.eventb.core.type="Direction"/>
+        <org.eventb.core.poIdentifier name="etage" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="listDemandesDescendre" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="listDemandesMontee" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poPredicate name="listDemandesDescendrf" org.eventb.core.predicate="etage∈0 ‥ E" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.invariant#_LKfmcJSeEfCqMcvWwiKvew"/>
+        <org.eventb.core.poPredicate name="listDemandesDescendrg" org.eventb.core.predicate="direction∈Direction" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.invariant#_u-Jy4ZSlEfCGx-5Hhu_UBA"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="INITIALISATION/inv0/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#EVTALLHYPlistDemandesDescendrf"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(∅ ⦂ ℙ(ℤ))⊂ℕ" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdH0J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_AofGoJSmEfCGx-5Hhu_UBA"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdH0J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poSequent#INITIALISATION\/inv0\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poSequent name="INITIALISATION/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#EVTALLHYPlistDemandesDescendrf"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="(∅ ⦂ ℙ(ℤ))⊂ℕ" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdu4J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_AofGoJSmEfCGx-5Hhu_UBA"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdu4J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poSequent#INITIALISATION\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTlistDemandesDescendrf" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="listDemandesMontee'" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="direction'" org.eventb.core.type="Direction"/>
+        <org.eventb.core.poIdentifier name="listDemandesDescendre'" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="etage'" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPlistDemandesDescendrf" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#EVTIDENTlistDemandesDescendrf" org.eventb.core.poStamp="0"/>
+    <org.eventb.core.poSequent name="demandesDescendre/inv0/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#EVTALLHYPlistDemandesDescendrg"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="listDemandesDescendre∪{etageDemandee}⊂ℕ" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdH0J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdH0J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poSequent#demandesDescendre\/inv0\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTlistDemandesDescendrg" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="listDemandesDescendre'" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="etageDemandee" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPlistDemandesDescendrg" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#EVTIDENTlistDemandesDescendrg" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="etageDemandee∈0 ‥ etage ∖ {etage}" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ|org.eventb.core.guard#__MpzkZ-iEfCqtvPkRJ5yHQ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="demandesMontee/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#EVTALLHYPlistDemandesDescendrh"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="listDemandesMontee∪{etageDemandee}⊂ℕ" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdu4J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdu4J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poSequent#demandesMontee\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTlistDemandesDescendrh" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="listDemandesMontee'" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="etageDemandee" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPlistDemandesDescendrh" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#EVTIDENTlistDemandesDescendrh" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="etageDemandee∈etage ‥ E ∖ {etage}" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ|org.eventb.core.guard#_V0F6gZ-jEfCqtvPkRJ5yHQ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="monter/inv1/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#EVTALLHYPlistDemandesDescendri"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="listDemandesMontee ∖ {destination}⊂ℕ" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdu4J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_6DV68J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdu4J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poSequent#monter\/inv1\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD1"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTlistDemandesDescendri" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="destination" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="listDemandesMontee'" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="etage'" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPlistDemandesDescendri" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#EVTIDENTlistDemandesDescendri" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="destination∈0 ‥ E ∖ {etage}" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.guard#_LKgNgZSeEfCqMcvWwiKvew"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="direction=HAUT" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_MGsXMJ-aEfCkOu13CJqfYQ"/>
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="destination∈etage ‥ E ∖ {etage}" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_x6ZasJ-fEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="(destination∈listDemandesMontee∧listDemandesMontee⊈etage ‥ destination ∖ {destination})∨listDemandesMontee≠(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_6DV68J-jEfCqtvPkRJ5yHQ|org.eventb.core.guard#_7sAP8J-lEfCqtvPkRJ5yHQ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="descendre/inv0/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#EVTALLHYPlistDemandesDescendrj"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="listDemandesDescendre ∖ {destination}⊂ℕ" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdH0J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="ABSTRACT" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="CONCRETE" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSource name="SEQHYT" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdH0J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poSequent#descendre\/inv0\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYV" org.eventb.core.poSelHintFst="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTlistDemandesDescendrj" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="destination" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="listDemandesDescendre'" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="etage'" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPlistDemandesDescendrj" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#EVTIDENTlistDemandesDescendrj" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="destination∈0 ‥ E ∖ {etage}" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.guard#_LKgNgZSeEfCqMcvWwiKvew"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="direction=BAS" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_MGtlUJ-aEfCkOu13CJqfYQ"/>
+        <org.eventb.core.poPredicate name="PRD2" org.eventb.core.predicate="destination∈0 ‥ etage ∖ {etage}" org.eventb.core.source="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_x6ao0J-fEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poPredicate name="PRD3" org.eventb.core.predicate="listDemandesMontee=(∅ ⦂ ℙ(ℤ))" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ|org.eventb.core.guard#_uW5wIKQQEfCApczhdnlGew"/>
+        <org.eventb.core.poPredicate name="PRD4" org.eventb.core.predicate="destination∈listDemandesDescendre" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ|org.eventb.core.guard#_uW5wIaQQEfCApczhdnlGew"/>
+        <org.eventb.core.poPredicate name="PRD5" org.eventb.core.predicate="listDemandesDescendre⊈destination ‥ etage ∖ {destination}" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ|org.eventb.core.guard#_7sAP8Z-lEfCqtvPkRJ5yHQ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTIDENTlistDemandesDescendrk" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="direction'" org.eventb.core.type="Direction"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPlistDemandesDescendrk" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#EVTIDENTlistDemandesDescendrk" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="(direction=HAUT∧listDemandesMontee=(∅ ⦂ ℙ(ℤ)))∨(direction=BAS∧listDemandesDescendre=(∅ ⦂ ℙ(ℤ)))" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_TOCIkKQUEfCApczhdnlGew|org.eventb.core.guard#_TOCIkqQUEfCApczhdnlGew"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Ascenseur/m3_demandes.bpo|org.eventb.core.poFile#m3_demandes|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="listDemandesDescendre⊂ℕ" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdH0J-jEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="listDemandesMontee⊂ℕ" org.eventb.core.source="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdu4J-jEfCqtvPkRJ5yHQ"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

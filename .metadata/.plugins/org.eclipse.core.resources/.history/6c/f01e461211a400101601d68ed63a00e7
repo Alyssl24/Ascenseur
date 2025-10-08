@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scContextFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase">
+    <org.eventb.core.scAxiom name="'" org.eventb.core.label="p" org.eventb.core.predicate="partition(Direction,{HAUT},{BAS})" org.eventb.core.source="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_BabdwpSiEfCGx-5Hhu_UBA" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name="(" org.eventb.core.label="ax1" org.eventb.core.predicate="oppose∈Direction → Direction" org.eventb.core.source="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_TZCi8JSjEfCGx-5Hhu_UBA" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scAxiom name=")" org.eventb.core.label="n_def" org.eventb.core.predicate="oppose={HAUT ↦ BAS,BAS ↦ HAUT}" org.eventb.core.source="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_BacE0JSiEfCGx-5Hhu_UBA" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scCarrierSet name="Direction" org.eventb.core.source="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.carrierSet#_Baa2sJSiEfCGx-5Hhu_UBA" org.eventb.core.type="ℙ(Direction)"/>
+    <org.eventb.core.scConstant name="HAUT" org.eventb.core.source="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_Baa2sZSiEfCGx-5Hhu_UBA" org.eventb.core.type="Direction"/>
+    <org.eventb.core.scConstant name="oppose" org.eventb.core.source="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_BabdwZSiEfCGx-5Hhu_UBA" org.eventb.core.type="ℙ(Direction×Direction)"/>
+    <org.eventb.core.scConstant name="BAS" org.eventb.core.source="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_BabdwJSiEfCGx-5Hhu_UBA" org.eventb.core.type="Direction"/>
+</org.eventb.core.scContextFile>

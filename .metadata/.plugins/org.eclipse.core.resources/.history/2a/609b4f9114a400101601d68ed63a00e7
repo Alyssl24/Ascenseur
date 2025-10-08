@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="0">
+    <org.eventb.core.poPredicateSet name="CTXHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="E" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poPredicate name="F" org.eventb.core.predicate="E∈ℕ1" org.eventb.core.source="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.axiom#_LN6_0JScEfCqMcvWwiKvew"/>
+        <org.eventb.core.poPredicate name="G" org.eventb.core.predicate="E=4" org.eventb.core.source="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.axiom#_ouX7EJSeEfCqMcvWwiKvew"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.parentSet="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="etage" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poSequent name="INITIALISATION/etage/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  establishment" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poPredicateSet#EVTALLHYPc1_etagg"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="0∈0 ‥ E" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.invariant#_LKfmcJSeEfCqMcvWwiKvew"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#'"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.invariant#_LKfmcJSeEfCqMcvWwiKvew"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poSelHintSnd="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poSequent#INITIALISATION\/etage\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTc1_etagg" org.eventb.core.parentSet="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poPredicateSet#CTXHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="etage'" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPc1_etagg" org.eventb.core.parentSet="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poPredicateSet#EVTIDENTc1_etagg" org.eventb.core.poStamp="0"/>
+    <org.eventb.core.poSequent name="deplacer/etage/INV" org.eventb.core.accurate="true" org.eventb.core.poDesc="Invariant  preservation" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicateSet name="SEQHYP" org.eventb.core.parentSet="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poPredicateSet#EVTALLHYPc1_etagh"/>
+        <org.eventb.core.poPredicate name="SEQHYQ" org.eventb.core.predicate="destination∈0 ‥ E" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.invariant#_LKfmcJSeEfCqMcvWwiKvew"/>
+        <org.eventb.core.poSource name="SEQHYR" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew"/>
+        <org.eventb.core.poSource name="SEQHYS" org.eventb.core.poRole="DEFAULT" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.invariant#_LKfmcJSeEfCqMcvWwiKvew"/>
+        <org.eventb.core.poSelHint name="SEQHYT" org.eventb.core.poSelHintFst="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poSelHintSnd="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poSequent#deplacer\/etage\/INV|org.eventb.core.poPredicateSet#SEQHYP"/>
+        <org.eventb.core.poSelHint name="SEQHYU" org.eventb.core.poSelHintFst="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poPredicateSet#ALLHYP|org.eventb.core.poPredicate#PRD0"/>
+    </org.eventb.core.poSequent>
+    <org.eventb.core.poPredicateSet name="EVTIDENTc1_etagh" org.eventb.core.parentSet="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poPredicateSet#ALLHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poIdentifier name="destination" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.poIdentifier name="etage'" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="EVTALLHYPc1_etagh" org.eventb.core.parentSet="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poPredicateSet#EVTIDENTc1_etagh" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="destination∈0 ‥ E ∖ {etage}" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.guard#_LKgNgZSeEfCqMcvWwiKvew"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Ascenseur/m1_deplacement.bpo|org.eventb.core.poFile#m1_deplacement|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="0">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="etage∈0 ‥ E" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.invariant#_LKfmcJSeEfCqMcvWwiKvew"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>
