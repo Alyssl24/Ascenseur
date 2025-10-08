@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.scMachineFile org.eventb.core.accurate="true" org.eventb.core.configuration="org.eventb.core.fwd">
+    <org.eventb.core.scSeesContext name="'" org.eventb.core.scTarget="/Ascenseur/c1_etage.bcc" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.seesContext#_MqEqMJSbEfCqMcvWwiKvew"/>
+    <org.eventb.core.scInternalContext name="c1_etage">
+        <org.eventb.core.scAxiom name="'" org.eventb.core.label="ax1" org.eventb.core.predicate="E∈ℕ1" org.eventb.core.source="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.axiom#_LN6_0JScEfCqMcvWwiKvew" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scAxiom name="(" org.eventb.core.label="simu" org.eventb.core.predicate="E=4" org.eventb.core.source="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.axiom#_ouX7EJSeEfCqMcvWwiKvew" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scConstant name="E" org.eventb.core.source="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.constant#_ET--cJSaEfCqMcvWwiKvew" org.eventb.core.type="ℤ"/>
+    </org.eventb.core.scInternalContext>
+    <org.eventb.core.scInvariant name="c1_etagf" org.eventb.core.label="etage" org.eventb.core.predicate="etage∈0 ‥ E" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.invariant#_LKfmcJSeEfCqMcvWwiKvew" org.eventb.core.theorem="false"/>
+    <org.eventb.core.scVariable name="etage" org.eventb.core.abstract="false" org.eventb.core.concrete="true" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.variable#_LKe_YZSeEfCqMcvWwiKvew" org.eventb.core.type="ℤ"/>
+    <org.eventb.core.scEvent name="c1_etagg" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="INITIALISATION" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#'">
+        <org.eventb.core.scAction name="'" org.eventb.core.assignment="etage ≔ 0" org.eventb.core.label="init" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#'|org.eventb.core.action#_LKe_YJSeEfCqMcvWwiKvew"/>
+    </org.eventb.core.scEvent>
+    <org.eventb.core.scEvent name="c1_etagh" org.eventb.core.accurate="true" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.label="deplacer" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew">
+        <org.eventb.core.scGuard name="'" org.eventb.core.label="dest" org.eventb.core.predicate="destination∈0 ‥ E ∖ {etage}" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.guard#_LKgNgZSeEfCqMcvWwiKvew" org.eventb.core.theorem="false"/>
+        <org.eventb.core.scParameter name="destination" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.parameter#_LKgNgJSeEfCqMcvWwiKvew" org.eventb.core.type="ℤ"/>
+        <org.eventb.core.scAction name="destinatioo" org.eventb.core.assignment="etage ≔ destination" org.eventb.core.label="init" org.eventb.core.source="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.action#_LKgNgpSeEfCqMcvWwiKvew"/>
+    </org.eventb.core.scEvent>
+</org.eventb.core.scMachineFile>

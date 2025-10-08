@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.contextFile org.eventb.core.configuration="org.eventb.core.fwd;de.prob.symbolic.ctxBase" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1759417773851" org.eventb.texttools.text_representation="context c3_demandes&#10;&#10;constants demandesDescendre demandesMontee&#10;&#10;axioms&#10;  @ax2 demandesDescendre ⊂ ℕ&#10;  @ax3 demandesMontee ⊂ ℕ&#10;end&#10;" version="3">
+    <org.eventb.core.axiom name="_t6GYkZ-gEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="ax2" org.eventb.core.predicate="demandesDescendre ⊂ ℕ"/>
+    <org.eventb.core.axiom name="_t6G_oJ-gEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="ax3" org.eventb.core.predicate="demandesMontee ⊂ ℕ"/>
+    <org.eventb.core.constant name="_zbpgIJ-hEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.identifier="demandesDescendre"/>
+    <org.eventb.core.constant name="_zbqHMJ-hEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.identifier="demandesMontee"/>
+</org.eventb.core.contextFile>

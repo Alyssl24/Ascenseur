@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+    <pim project="/Ascenseur">
+        <rodin_index>
+            <descriptor element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage" name="c1_etage">
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.seesContext#_MqEqMJSbEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew" name="deplacer">
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.parameter#_LKgNgJSeEfCqMcvWwiKvew" name="destination">
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.action#_LKgNgpSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="8"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.guard#_LKgNgZSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.parameter#_LKgNgJSeEfCqMcvWwiKvew" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.guard#_LKgNgZSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="31" loc_char_start="20"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.variable#_LKe_YZSeEfCqMcvWwiKvew" name="etage">
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.variable#_LKe_YZSeEfCqMcvWwiKvew" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.guard#_LKgNgZSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="39" loc_char_start="34"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.action#_LKgNgpSeEfCqMcvWwiKvew" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.invariant#_LKfmcJSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#'|org.eventb.core.action#_LKe_YJSeEfCqMcvWwiKvew" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.constant#_ET--cJSaEfCqMcvWwiKvew" name="E">
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.invariant#_LKfmcJSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.constant#_ET--cJSaEfCqMcvWwiKvew" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.guard#_LKgNgZSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+                <occurrence element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.axiom#_LN6_0JScEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.axiom#_ouX7EJSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement" name="m1_deplacement">
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement" kind="org.eventb.core.declaration"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/Ascenseur/c1_etage.buc">
+                <exported element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.constant#_ET--cJSaEfCqMcvWwiKvew" name="E"/>
+                <exported element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage" name="c1_etage"/>
+            </export>
+            <export file="/Ascenseur/m1_deplacement.bum">
+                <exported element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.constant#_ET--cJSaEfCqMcvWwiKvew" name="E"/>
+                <exported element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement" name="m1_deplacement"/>
+                <exported element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.parameter#_LKgNgJSeEfCqMcvWwiKvew" name="destination"/>
+                <exported element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage" name="c1_etage"/>
+                <exported element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.variable#_LKe_YZSeEfCqMcvWwiKvew" name="etage"/>
+                <exported element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew" name="deplacer"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/Ascenseur/c1_etage.buc" mark="false" order_pos="0"/>
+            <node label="/Ascenseur/m1_deplacement.bum" mark="false" order_pos="1">
+                <predecessor label="/Ascenseur/c1_etage.buc"/>
+            </node>
+        </graph>
+        <unprocessed file="/Ascenseur/Test.bcm"/>
+        <unprocessed file="/Ascenseur/Question1.bcm"/>
+        <unprocessed file="/Ascenseur/Question1.bpo"/>
+        <unprocessed file="/Ascenseur/Question1.bpr"/>
+        <unprocessed file="/Ascenseur/Question1.bps"/>
+        <unprocessed file="/Ascenseur/m1_deplacement.bpr"/>
+        <unprocessed file="/Ascenseur/m1_deplacement.bcm"/>
+        <unprocessed file="/Ascenseur/m1_deplacement.bpo"/>
+        <unprocessed file="/Ascenseur/m1_deplacement.bps"/>
+        <unprocessed file="/Ascenseur/c1_etage.bcc"/>
+        <unprocessed file="/Ascenseur/c1_etage.bpo"/>
+        <unprocessed file="/Ascenseur/c1_etage.bpr"/>
+        <unprocessed file="/Ascenseur/c1_etage.bps"/>
+    </pim>
+    <delta_list/>
+    <indexer_registry>
+        <registry_entry element_type="org.eventb.core.machineFile">
+            <indexer id="machineIndexer"/>
+        </registry_entry>
+        <registry_entry element_type="org.eventb.core.contextFile">
+            <indexer id="contextIndexer"/>
+        </registry_entry>
+    </indexer_registry>
+</index_root>

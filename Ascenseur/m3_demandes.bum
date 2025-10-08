@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1759419773008" org.eventb.texttools.text_representation="machine m3_demandes refines m2_direction  sees c2_direction c1_etage&#10;&#10;variables etage direction listDemandesDescendre listDemandesMontee&#10;&#10;invariants&#10;  @inv0 listDemandesDescendre ⊂ ℕ&#10;  @inv1 listDemandesMontee ⊂ ℕ&#10;&#10;events&#10;  event INITIALISATION extends INITIALISATION&#10;  then&#10;  &#9;@initDes listDemandesDescendre ≔ ∅&#10;  &#9;@initMon listDemandesMontee ≔ ∅&#10;  end&#10;&#10;  event demandesDescendre&#10;  any etageDemandee&#10;  where @des etageDemandee ∈ 0‥etage∖{etage}&#10;  then&#10;  &#9;@ajout listDemandesDescendre ≔ listDemandesDescendre ∪ {etageDemandee}&#10;  end&#10;&#10;  event demandesMontee&#10;  any etageDemandee&#10;  where @des etageDemandee ∈ etage‥E∖{etage}&#10;  then&#10;  &#9;@ajout listDemandesMontee ≔ listDemandesMontee ∪ {etageDemandee}&#10;  end&#10;&#10;  event monter extends monter&#10;  where @cond1 listDemandesMontee ≠ ∅&#10;  @blblb destination ∈ listDemandesMontee&#10;  @bgbg listDemandesMontee ⊈ etage‥destination∖{destination}&#10;  then @b listDemandesMontee ≔ listDemandesMontee∖{destination}&#10;  end&#10;&#10;  event descendre extends descendre&#10;  where @cond1 listDemandesDescendre ≠ ∅&#10;  @blblb destination ∈ listDemandesDescendre&#10;  @bgbg listDemandesDescendre ⊈ destination‥etage∖{destination}&#10;  @dyhfh listDemandesMontee = ∅&#10;  then @b listDemandesDescendre ≔ listDemandesDescendre∖{destination}&#10;  end&#10;end&#10;" version="5">
+    <org.eventb.core.refinesMachine name="_8HJQoZ-hEfCqtvPkRJ5yHQ" org.eventb.core.target="m2_direction"/>
+    <org.eventb.core.seesContext name="_8HJ3sJ-hEfCqtvPkRJ5yHQ" org.eventb.core.target="c2_direction"/>
+    <org.eventb.core.seesContext name="_8HJ3sZ-hEfCqtvPkRJ5yHQ" org.eventb.core.target="c1_etage"/>
+    <org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION">
+        <org.eventb.core.action name="__Mn-YJ-iEfCqtvPkRJ5yHQ" org.eventb.core.assignment="listDemandesDescendre ≔ ∅" org.eventb.core.generated="false" org.eventb.core.label="initDes"/>
+        <org.eventb.core.action name="__MolcJ-iEfCqtvPkRJ5yHQ" org.eventb.core.assignment="listDemandesMontee ≔ ∅" org.eventb.core.generated="false" org.eventb.core.label="initMon"/>
+    </org.eventb.core.event>
+    <org.eventb.core.variable name="__MolcZ-iEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.identifier="etage"/>
+    <org.eventb.core.variable name="__Molcp-iEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.identifier="direction"/>
+    <org.eventb.core.variable name="__MpMgJ-iEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.identifier="listDemandesDescendre"/>
+    <org.eventb.core.variable name="__MpMgZ-iEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.identifier="listDemandesMontee"/>
+    <org.eventb.core.event name="__MpMgp-iEfCqtvPkRJ5yHQ" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="demandesDescendre">
+        <org.eventb.core.parameter name="__MpzkJ-iEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.identifier="etageDemandee"/>
+        <org.eventb.core.guard name="__MpzkZ-iEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="des" org.eventb.core.predicate="etageDemandee ∈ 0‥etage∖{etage}"/>
+        <org.eventb.core.action name="__MqaoJ-iEfCqtvPkRJ5yHQ" org.eventb.core.assignment="listDemandesDescendre ≔ listDemandesDescendre ∪ {etageDemandee}" org.eventb.core.generated="false" org.eventb.core.label="ajout"/>
+    </org.eventb.core.event>
+    <org.eventb.core.invariant name="_QHdH0J-jEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="inv0" org.eventb.core.predicate="listDemandesDescendre ⊂ ℕ"/>
+    <org.eventb.core.invariant name="_QHdu4J-jEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="inv1" org.eventb.core.predicate="listDemandesMontee ⊂ ℕ"/>
+    <org.eventb.core.event name="_V0FTcJ-jEfCqtvPkRJ5yHQ" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="demandesMontee">
+        <org.eventb.core.parameter name="_V0F6gJ-jEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.identifier="etageDemandee"/>
+        <org.eventb.core.guard name="_V0F6gZ-jEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="des" org.eventb.core.predicate="etageDemandee ∈ etage‥E∖{etage}"/>
+        <org.eventb.core.action name="_V0F6gp-jEfCqtvPkRJ5yHQ" org.eventb.core.assignment="listDemandesMontee ≔ listDemandesMontee ∪ {etageDemandee}" org.eventb.core.generated="false" org.eventb.core.label="ajout"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_6DV68J-jEfCqtvPkRJ5yHQ" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="monter">
+        <org.eventb.core.refinesEvent name="_6DV68Z-jEfCqtvPkRJ5yHQ" org.eventb.core.target="monter"/>
+        <org.eventb.core.guard name="_6DV68p-jEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="cond1" org.eventb.core.predicate="listDemandesMontee ≠ ∅"/>
+        <org.eventb.core.guard name="_7sAP8J-lEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="blblb" org.eventb.core.predicate="destination ∈ listDemandesMontee"/>
+        <org.eventb.core.guard name="_7sAP8Z-lEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="bgbg" org.eventb.core.predicate="listDemandesMontee ⊈ etage‥destination∖{destination}"/>
+        <org.eventb.core.action name="_xON34J-kEfCqtvPkRJ5yHQ" org.eventb.core.assignment="listDemandesMontee ≔ listDemandesMontee∖{destination}" org.eventb.core.generated="false" org.eventb.core.label="b"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_dVGGcJ-mEfCqtvPkRJ5yHQ" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="descendre">
+        <org.eventb.core.refinesEvent name="_dVGtgJ-mEfCqtvPkRJ5yHQ" org.eventb.core.target="descendre"/>
+        <org.eventb.core.guard name="_dVGtgZ-mEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="cond1" org.eventb.core.predicate="listDemandesDescendre ≠ ∅"/>
+        <org.eventb.core.guard name="_dVGtgp-mEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="blblb" org.eventb.core.predicate="destination ∈ listDemandesDescendre"/>
+        <org.eventb.core.guard name="_dVGtg5-mEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="bgbg" org.eventb.core.predicate="listDemandesDescendre ⊈ destination‥etage∖{destination}"/>
+        <org.eventb.core.guard name="_dVGthJ-mEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="dyhfh" org.eventb.core.predicate="listDemandesMontee = ∅"/>
+        <org.eventb.core.action name="_dVGthZ-mEfCqtvPkRJ5yHQ" org.eventb.core.assignment="listDemandesDescendre ≔ listDemandesDescendre∖{destination}" org.eventb.core.generated="false" org.eventb.core.label="b"/>
+    </org.eventb.core.event>
+</org.eventb.core.machineFile>

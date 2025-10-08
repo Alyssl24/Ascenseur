@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1759416904652" org.eventb.texttools.text_representation="machine m2_direction refines m1_deplacement  sees c2_direction c1_etage&#10;&#10;variables etage direction&#10;&#10;invariants&#10;  @direction direction ∈ Direction&#10;&#10;events&#10;  event INITIALISATION extends INITIALISATION&#10;    then&#10;      @direction direction ≔ HAUT&#10;  end&#10;&#10;  event changerDirection&#10;    then&#10;      @initC direction ≔ oppose(direction)&#10;  end&#10;&#10;  event monter extends deplacer&#10;    where&#10;      @monter direction = HAUT&#10;      @supp destination ∈ etage‥E∖{etage}&#10;  end&#10;&#10;  event descendre extends deplacer&#10;    where&#10;      @descendre direction = BAS&#10;      @inf destination ∈ 0‥etage∖{etage}&#10;  end&#10;end&#10;" version="5">
+    <org.eventb.core.refinesMachine name="_6LUO4JSlEfCGx-5Hhu_UBA" org.eventb.core.target="m1_deplacement"/>
+    <org.eventb.core.seesContext name="_u-JL0JSlEfCGx-5Hhu_UBA" org.eventb.core.target="c2_direction"/>
+    <org.eventb.core.seesContext name="_ADcOcJ-fEfCqtvPkRJ5yHQ" org.eventb.core.target="c1_etage"/>
+    <org.eventb.core.variable name="_VzMJ0JSmEfCGx-5Hhu_UBA" org.eventb.core.generated="false" org.eventb.core.identifier="etage"/>
+    <org.eventb.core.variable name="_u-Jy4JSlEfCGx-5Hhu_UBA" org.eventb.core.generated="false" org.eventb.core.identifier="direction"/>
+    <org.eventb.core.invariant name="_u-Jy4ZSlEfCGx-5Hhu_UBA" org.eventb.core.generated="false" org.eventb.core.label="direction" org.eventb.core.predicate="direction ∈ Direction"/>
+    <org.eventb.core.event name="_AofGoJSmEfCGx-5Hhu_UBA" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION">
+        <org.eventb.core.action name="_T36v8JSmEfCGx-5Hhu_UBA" org.eventb.core.assignment="direction ≔ HAUT" org.eventb.core.generated="false" org.eventb.core.label="direction"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_u-Jy5pSlEfCGx-5Hhu_UBA" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="changerDirection">
+        <org.eventb.core.action name="_ubUhMJ-eEfCqtvPkRJ5yHQ" org.eventb.core.assignment="direction ≔ oppose(direction)" org.eventb.core.generated="false" org.eventb.core.label="initC"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_u-Jy4pSlEfCGx-5Hhu_UBA" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="monter">
+        <org.eventb.core.refinesEvent name="_GdYlUJ-aEfCkOu13CJqfYQ" org.eventb.core.target="deplacer"/>
+        <org.eventb.core.guard name="_MGsXMJ-aEfCkOu13CJqfYQ" org.eventb.core.generated="false" org.eventb.core.label="monter" org.eventb.core.predicate="direction = HAUT"/>
+        <org.eventb.core.guard name="_x6ZasJ-fEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="supp" org.eventb.core.predicate="destination ∈ etage‥E∖{etage}"/>
+    </org.eventb.core.event>
+    <org.eventb.core.event name="_u-Jy5JSlEfCGx-5Hhu_UBA" org.eventb.core.convergence="0" org.eventb.core.extended="true" org.eventb.core.generated="false" org.eventb.core.label="descendre">
+        <org.eventb.core.refinesEvent name="_GdaagJ-aEfCkOu13CJqfYQ" org.eventb.core.target="deplacer"/>
+        <org.eventb.core.guard name="_MGtlUJ-aEfCkOu13CJqfYQ" org.eventb.core.generated="false" org.eventb.core.label="descendre" org.eventb.core.predicate="direction = BAS"/>
+        <org.eventb.core.guard name="_x6ao0J-fEfCqtvPkRJ5yHQ" org.eventb.core.generated="false" org.eventb.core.label="inf" org.eventb.core.predicate="destination ∈ 0‥etage∖{etage}"/>
+    </org.eventb.core.event>
+</org.eventb.core.machineFile>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.poFile org.eventb.core.poStamp="2">
+    <org.eventb.core.poPredicateSet name="ABSHYP" org.eventb.core.poStamp="2">
+        <org.eventb.core.poIdentifier name="demandesDescendre" org.eventb.core.type="ℙ(ℤ)"/>
+        <org.eventb.core.poIdentifier name="demandesMontee" org.eventb.core.type="ℙ(ℤ)"/>
+    </org.eventb.core.poPredicateSet>
+    <org.eventb.core.poPredicateSet name="ALLHYP" org.eventb.core.parentSet="/Ascenseur/c3_demandes.bpo|org.eventb.core.poFile#c3_demandes|org.eventb.core.poPredicateSet#ABSHYP" org.eventb.core.poStamp="2">
+        <org.eventb.core.poPredicate name="PRD0" org.eventb.core.predicate="demandesDescendre⊂ℕ" org.eventb.core.source="/Ascenseur/c3_demandes.buc|org.eventb.core.contextFile#c3_demandes|org.eventb.core.axiom#_t6GYkZ-gEfCqtvPkRJ5yHQ"/>
+        <org.eventb.core.poPredicate name="PRD1" org.eventb.core.predicate="demandesMontee⊂ℕ" org.eventb.core.source="/Ascenseur/c3_demandes.buc|org.eventb.core.contextFile#c3_demandes|org.eventb.core.axiom#_t6G_oJ-gEfCqtvPkRJ5yHQ"/>
+    </org.eventb.core.poPredicateSet>
+</org.eventb.core.poFile>

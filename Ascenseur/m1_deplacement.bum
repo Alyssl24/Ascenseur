@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<org.eventb.core.machineFile org.eventb.core.configuration="org.eventb.core.fwd" org.eventb.core.generated="false" org.eventb.texttools.text_lastmodified="1758208885394" org.eventb.texttools.text_representation="machine m1_deplacement sees c1_etage&#10;variables etage&#10;invariants&#10;&#9;@etage etage ∈ 0‥E&#10;&#10;events&#10;  &#9;event INITIALISATION&#10;  &#9;then&#10;  &#9;&#9;@init etage ≔ 0&#10;  &#9;end&#10;&#10;  &#9;event deplacer&#10;&#9;&#9;any destination&#10;&#9;&#9;where @dest destination ∈ 0‥E ∖ {etage}&#10;&#9;&#9;then&#10;&#9;&#9;&#9;@init etage ≔ destination&#10;&#9;end&#10; end&#10;" version="5">
+    <org.eventb.core.seesContext name="_MqEqMJSbEfCqMcvWwiKvew" org.eventb.core.target="c1_etage"/>
+    <org.eventb.core.event name="'" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="INITIALISATION">
+        <org.eventb.core.action name="_LKe_YJSeEfCqMcvWwiKvew" org.eventb.core.assignment="etage ≔ 0" org.eventb.core.generated="false" org.eventb.core.label="init"/>
+    </org.eventb.core.event>
+    <org.eventb.core.variable name="_LKe_YZSeEfCqMcvWwiKvew" org.eventb.core.generated="false" org.eventb.core.identifier="etage"/>
+    <org.eventb.core.invariant name="_LKfmcJSeEfCqMcvWwiKvew" org.eventb.core.generated="false" org.eventb.core.label="etage" org.eventb.core.predicate="etage ∈ 0‥E"/>
+    <org.eventb.core.event name="_LKfmcZSeEfCqMcvWwiKvew" org.eventb.core.convergence="0" org.eventb.core.extended="false" org.eventb.core.generated="false" org.eventb.core.label="deplacer">
+        <org.eventb.core.parameter name="_LKgNgJSeEfCqMcvWwiKvew" org.eventb.core.generated="false" org.eventb.core.identifier="destination"/>
+        <org.eventb.core.guard name="_LKgNgZSeEfCqMcvWwiKvew" org.eventb.core.generated="false" org.eventb.core.label="dest" org.eventb.core.predicate="destination ∈ 0‥E ∖ {etage}"/>
+        <org.eventb.core.action name="_LKgNgpSeEfCqMcvWwiKvew" org.eventb.core.assignment="etage ≔ destination" org.eventb.core.generated="false" org.eventb.core.label="init"/>
+    </org.eventb.core.event>
+</org.eventb.core.machineFile>
