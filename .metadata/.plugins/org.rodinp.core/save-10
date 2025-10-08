@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<index_root>
+    <pim project="/Ascenseur">
+        <rodin_index>
+            <descriptor element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_AofGoJSmEfCGx-5Hhu_UBA" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew" name="deplacer">
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA|org.eventb.core.refinesEvent#_GdaagJ-aEfCkOu13CJqfYQ" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA|org.eventb.core.refinesEvent#_GdYlUJ-aEfCkOu13CJqfYQ" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.variable#_u-Jy4JSlEfCGx-5Hhu_UBA" name="direction">
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5pSlEfCGx-5Hhu_UBA|org.eventb.core.action#_ubUhMJ-eEfCqtvPkRJ5yHQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5pSlEfCGx-5Hhu_UBA|org.eventb.core.action#_ubUhMJ-eEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="28" loc_char_start="19"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_MGsXMJ-aEfCkOu13CJqfYQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.invariant#_u-Jy4ZSlEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_AofGoJSmEfCGx-5Hhu_UBA|org.eventb.core.action#_T36v8JSmEfCGx-5Hhu_UBA" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="9" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_MGtlUJ-aEfCkOu13CJqfYQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__Molcp-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.variable#_u-Jy4JSlEfCGx-5Hhu_UBA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZCp0KQYEfCgeP_JC7Bpsg" name="remonter">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZCp0KQYEfCgeP_JC7Bpsg" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.parameter#_az6T0KQfEfCgeP_JC7Bpsg" name="etageDemande">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.guard#_az6T0qQfEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="12" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.parameter#_az6T0KQfEfCgeP_JC7Bpsg" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.action#_ZwSowKQhEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="63" loc_char_start="51"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.action#_ZwTP0KQhEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="69" loc_char_start="57"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.parameter#_LKgNgJSeEfCqMcvWwiKvew" name="destination">
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.guard#_LKgNgZSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_x6ao0J-fEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.parameter#_LKgNgJSeEfCqMcvWwiKvew" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.action#_LKgNgpSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="19" loc_char_start="8"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_x6ZasJ-fEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5pSlEfCGx-5Hhu_UBA" name="changerDirection">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZCp0KQYEfCgeP_JC7Bpsg|org.eventb.core.refinesEvent#_4ZDQ4KQYEfCgeP_JC7Bpsg" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5pSlEfCGx-5Hhu_UBA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZDQ4qQYEfCgeP_JC7Bpsg|org.eventb.core.refinesEvent#_4ZDQ46QYEfCgeP_JC7Bpsg" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__Molcp-iEfCqtvPkRJ5yHQ" name="direction">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZCp0KQYEfCgeP_JC7Bpsg|org.eventb.core.guard#_PvZsQKQZEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__Molcp-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZDQ4qQYEfCgeP_JC7Bpsg|org.eventb.core.guard#_PvaTUKQZEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="9" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg" name="demanderEtage">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.parameter#_az6T0aQfEfCgeP_JC7Bpsg" name="sens">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.action#_ZwTP0KQhEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="96" loc_char_start="92"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.action#_ZwSowKQhEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="90" loc_char_start="86"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.parameter#_az6T0aQfEfCgeP_JC7Bpsg" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.guard#_az6T06QfEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="4" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_BabdwJSiEfCGx-5Hhu_UBA" name="BAS">
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_BabdwJSiEfCGx-5Hhu_UBA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_BacE0JSiEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="17"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_BacE0JSiEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="25" loc_char_start="22"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_MGtlUJ-aEfCkOu13CJqfYQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="12"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZCp0KQYEfCgeP_JC7Bpsg|org.eventb.core.guard#_PvZsQKQZEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="15" loc_char_start="12"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.action#_ZwTP0KQhEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="102" loc_char_start="99"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_BabdwpSiEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="34" loc_char_start="31"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_6DV68J-jEfCqtvPkRJ5yHQ" name="monter">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_6DV68J-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_AofGoJSmEfCGx-5Hhu_UBA" name="INITIALISATION">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#'" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.label"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_AofGoJSmEfCGx-5Hhu_UBA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage" name="c1_etage">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.seesContext#_8HJ3sZ-hEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.seesContext#_ADcOcJ-fEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.seesContext#_MqEqMJSbEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_Baa2sZSiEfCGx-5Hhu_UBA" name="HAUT">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZDQ4qQYEfCgeP_JC7Bpsg|org.eventb.core.guard#_PvaTUKQZEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="12"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.action#_ZwSowKQhEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="97" loc_char_start="93"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_Baa2sZSiEfCGx-5Hhu_UBA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_BabdwpSiEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="23"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_AofGoJSmEfCGx-5Hhu_UBA|org.eventb.core.action#_T36v8JSmEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="16" loc_char_start="12"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_BacE0JSiEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="14" loc_char_start="10"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_BacE0JSiEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="28"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_MGsXMJ-aEfCkOu13CJqfYQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="12"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ" name="demandesDescendre">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ|org.eventb.core.parameter#__MpzkJ-iEfCqtvPkRJ5yHQ" name="etageDemandee">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ|org.eventb.core.guard#__MpzkZ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ|org.eventb.core.parameter#__MpzkJ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ|org.eventb.core.action#__MqaoJ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="62" loc_char_start="49"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.carrierSet#_Baa2sJSiEfCGx-5Hhu_UBA" name="Direction">
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_TZCi8JSjEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="9"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_TZCi8JSjEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="21"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.invariant#_u-Jy4ZSlEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="12"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.carrierSet#_Baa2sJSiEfCGx-5Hhu_UBA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.guard#_az6T06QfEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="16" loc_char_start="7"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_BabdwpSiEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="20" loc_char_start="11"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes" name="m3_demandes">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction" name="c2_direction">
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.seesContext#_u-JL0JSlEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction" kind="org.eventb.core.declaration"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.seesContext#_8HJ3sJ-hEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA" name="monter">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_6DV68J-jEfCqtvPkRJ5yHQ|org.eventb.core.refinesEvent#_6DV68Z-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ" name="descendre">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.constant#_ET--cJSaEfCqMcvWwiKvew" name="E">
+                <occurrence element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.axiom#_LN6_0JScEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.guard#_LKgNgZSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="17" loc_char_start="16"/>
+                <occurrence element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.axiom#_ouX7EJSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="1" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.constant#_ET--cJSaEfCqMcvWwiKvew" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_x6ZasJ-fEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="20"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.invariant#_LKfmcJSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="11" loc_char_start="10"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.guard#_az6T0qQfEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="17"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ|org.eventb.core.guard#_V0F6gZ-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="22"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ|org.eventb.core.parameter#_V0F6gJ-jEfCqtvPkRJ5yHQ" name="etageDemandee">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ|org.eventb.core.action#_V0F6gp-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="56" loc_char_start="43"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ|org.eventb.core.guard#_V0F6gZ-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="13" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ|org.eventb.core.parameter#_V0F6gJ-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZDQ4qQYEfCgeP_JC7Bpsg" name="redescendre">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZDQ4qQYEfCgeP_JC7Bpsg" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction" name="m2_direction">
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction" kind="org.eventb.core.declaration"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.refinesMachine#_8HJQoZ-hEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement" name="m1_deplacement">
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.refinesMachine#_6LUO4JSlEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement" kind="org.eventb.core.declaration"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA" name="descendre">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ|org.eventb.core.refinesEvent#_dVGtgJ-mEfCqtvPkRJ5yHQ" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.target"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_BabdwZSiEfCGx-5Hhu_UBA" name="oppose">
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_TZCi8JSjEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.axiom#_BacE0JSiEfCGx-5Hhu_UBA" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="6" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_BabdwZSiEfCGx-5Hhu_UBA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5pSlEfCGx-5Hhu_UBA|org.eventb.core.action#_ubUhMJ-eEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="12"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.variable#_VzMJ0JSmEfCGx-5Hhu_UBA" name="etage">
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_x6ao0J-fEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="16"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_x6ao0J-fEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="23"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.variable#_VzMJ0JSmEfCGx-5Hhu_UBA" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_x6ZasJ-fEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="19" loc_char_start="14"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA|org.eventb.core.guard#_x6ZasJ-fEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="28" loc_char_start="23"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__MolcZ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ" name="demandesMontee">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__MpMgZ-iEfCqtvPkRJ5yHQ" name="listDemandesMontee">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.action#_ZwSowKQhEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="39" loc_char_start="21"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_6DV68J-jEfCqtvPkRJ5yHQ|org.eventb.core.guard#_6DV68p-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_6DV68J-jEfCqtvPkRJ5yHQ|org.eventb.core.guard#_7sAP8J-lEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="32" loc_char_start="14"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ|org.eventb.core.action#_V0F6gp-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="39" loc_char_start="21"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ|org.eventb.core.action#_V0F6gp-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZDQ4qQYEfCgeP_JC7Bpsg|org.eventb.core.guard#_4ZDQ5KQYEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZCp0KQYEfCgeP_JC7Bpsg|org.eventb.core.guard#_4ZDQ5aQYEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.action#_ZwSowKQhEfCgeP_JC7Bpsg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdu4J-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#'|org.eventb.core.action#__MolcJ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_6DV68J-jEfCqtvPkRJ5yHQ|org.eventb.core.guard#_7sAP8Z-lEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_6DV68J-jEfCqtvPkRJ5yHQ|org.eventb.core.action#_xON34J-kEfCqtvPkRJ5yHQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="18" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ|org.eventb.core.guard#_dVGthJ-mEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="18" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__MpMgZ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_6DV68J-jEfCqtvPkRJ5yHQ|org.eventb.core.action#_xON34J-kEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="39" loc_char_start="21"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.variable#_LKe_YZSeEfCqMcvWwiKvew" name="etage">
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.variable#_LKe_YZSeEfCqMcvWwiKvew" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.action#_LKgNgpSeEfCqMcvWwiKvew" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.invariant#_LKfmcJSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="5" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.variable#_VzMJ0JSmEfCGx-5Hhu_UBA" kind="org.eventb.core.redeclaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.guard#_LKgNgZSeEfCqMcvWwiKvew" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="21"/>
+                <occurrence element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#'|org.eventb.core.action#_LKe_YJSeEfCqMcvWwiKvew" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="5" loc_char_start="0"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__MolcZ-iEfCqtvPkRJ5yHQ" name="etage">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ|org.eventb.core.guard#_V0F6gZ-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="25"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ|org.eventb.core.guard#_V0F6gZ-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="16"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_6DV68J-jEfCqtvPkRJ5yHQ|org.eventb.core.guard#_7sAP8Z-lEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="26" loc_char_start="21"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ|org.eventb.core.guard#_dVGtg5-mEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="41" loc_char_start="36"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__MolcZ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.guard#_az6T0qQfEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="27" loc_char_start="22"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ|org.eventb.core.guard#__MpzkZ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="23" loc_char_start="18"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ|org.eventb.core.guard#__MpzkZ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="30" loc_char_start="25"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#'" name="INITIALISATION">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#'" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.label"/>
+            </descriptor>
+            <descriptor element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__MpMgJ-iEfCqtvPkRJ5yHQ" name="listDemandesDescendre">
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ|org.eventb.core.action#_dVGthZ-mEfCqtvPkRJ5yHQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="21" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.action#_ZwTP0KQhEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="45" loc_char_start="24"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZDQ4qQYEfCgeP_JC7Bpsg|org.eventb.core.guard#_-xv4UKQYEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZCp0KQYEfCgeP_JC7Bpsg|org.eventb.core.guard#_4ZDQ4aQYEfCgeP_JC7Bpsg" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ|org.eventb.core.guard#_dVGtgp-mEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="35" loc_char_start="14"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ|org.eventb.core.action#_dVGthZ-mEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="45" loc_char_start="24"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.action#_ZwTP0KQhEfCgeP_JC7Bpsg" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="21" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__MpMgJ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.declaration" loc_attribute="org.eventb.core.identifier"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ|org.eventb.core.guard#_dVGtg5-mEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#'|org.eventb.core.action#__Mn-YJ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="21" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ|org.eventb.core.action#__MqaoJ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.modification" loc_attribute="org.eventb.core.assignment" loc_char_end="21" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.invariant#_QHdH0J-jEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="0"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ|org.eventb.core.action#__MqaoJ-iEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.assignment" loc_char_end="45" loc_char_start="24"/>
+                <occurrence element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ|org.eventb.core.guard#_dVGtgZ-mEfCqtvPkRJ5yHQ" kind="org.eventb.core.reference" loc_attribute="org.eventb.core.predicate" loc_char_end="21" loc_char_start="0"/>
+            </descriptor>
+        </rodin_index>
+        <export_table>
+            <export file="/Ascenseur/c2_direction.buc">
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_BabdwJSiEfCGx-5Hhu_UBA" name="BAS"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction" name="c2_direction"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_Baa2sZSiEfCGx-5Hhu_UBA" name="HAUT"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_BabdwZSiEfCGx-5Hhu_UBA" name="oppose"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.carrierSet#_Baa2sJSiEfCGx-5Hhu_UBA" name="Direction"/>
+            </export>
+            <export file="/Ascenseur/c1_etage.buc">
+                <exported element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.constant#_ET--cJSaEfCqMcvWwiKvew" name="E"/>
+                <exported element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage" name="c1_etage"/>
+            </export>
+            <export file="/Ascenseur/m2_direction.bum">
+                <exported element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5JSlEfCGx-5Hhu_UBA" name="descendre"/>
+                <exported element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.constant#_ET--cJSaEfCqMcvWwiKvew" name="E"/>
+                <exported element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_AofGoJSmEfCGx-5Hhu_UBA" name="INITIALISATION"/>
+                <exported element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage" name="c1_etage"/>
+                <exported element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction" name="m2_direction"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction" name="c2_direction"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_BabdwJSiEfCGx-5Hhu_UBA" name="BAS"/>
+                <exported element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy5pSlEfCGx-5Hhu_UBA" name="changerDirection"/>
+                <exported element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement" name="m1_deplacement"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_BabdwZSiEfCGx-5Hhu_UBA" name="oppose"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_Baa2sZSiEfCGx-5Hhu_UBA" name="HAUT"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.carrierSet#_Baa2sJSiEfCGx-5Hhu_UBA" name="Direction"/>
+                <exported element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.variable#_VzMJ0JSmEfCGx-5Hhu_UBA" name="etage"/>
+                <exported element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.variable#_u-Jy4JSlEfCGx-5Hhu_UBA" name="direction"/>
+                <exported element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction|org.eventb.core.event#_u-Jy4pSlEfCGx-5Hhu_UBA" name="monter"/>
+            </export>
+            <export file="/Ascenseur/m3_demandes.bum">
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__MolcZ-iEfCqtvPkRJ5yHQ" name="etage"/>
+                <exported element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.constant#_ET--cJSaEfCqMcvWwiKvew" name="E"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg" name="demanderEtage"/>
+                <exported element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage" name="c1_etage"/>
+                <exported element="/Ascenseur/m2_direction.bum|org.eventb.core.machineFile#m2_direction" name="m2_direction"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ" name="demandesDescendre"/>
+                <exported element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement" name="m1_deplacement"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__MpMgJ-iEfCqtvPkRJ5yHQ" name="listDemandesDescendre"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZDQ4qQYEfCgeP_JC7Bpsg" name="redescendre"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.parameter#_az6T0KQfEfCgeP_JC7Bpsg" name="etageDemande"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_4ZCp0KQYEfCgeP_JC7Bpsg" name="remonter"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes" name="m3_demandes"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__Molcp-iEfCqtvPkRJ5yHQ" name="direction"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_dVGGcJ-mEfCqtvPkRJ5yHQ" name="descendre"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_6DV68J-jEfCqtvPkRJ5yHQ" name="monter"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ" name="demandesMontee"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction" name="c2_direction"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.variable#__MpMgZ-iEfCqtvPkRJ5yHQ" name="listDemandesMontee"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_az5swKQfEfCgeP_JC7Bpsg|org.eventb.core.parameter#_az6T0aQfEfCgeP_JC7Bpsg" name="sens"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_BabdwJSiEfCGx-5Hhu_UBA" name="BAS"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#__MpMgp-iEfCqtvPkRJ5yHQ|org.eventb.core.parameter#__MpzkJ-iEfCqtvPkRJ5yHQ" name="etageDemandee"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_BabdwZSiEfCGx-5Hhu_UBA" name="oppose"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.constant#_Baa2sZSiEfCGx-5Hhu_UBA" name="HAUT"/>
+                <exported element="/Ascenseur/c2_direction.buc|org.eventb.core.contextFile#c2_direction|org.eventb.core.carrierSet#_Baa2sJSiEfCGx-5Hhu_UBA" name="Direction"/>
+                <exported element="/Ascenseur/m3_demandes.bum|org.eventb.core.machineFile#m3_demandes|org.eventb.core.event#_V0FTcJ-jEfCqtvPkRJ5yHQ|org.eventb.core.parameter#_V0F6gJ-jEfCqtvPkRJ5yHQ" name="etageDemandee"/>
+            </export>
+            <export file="/Ascenseur/m1_deplacement.bum">
+                <exported element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage|org.eventb.core.constant#_ET--cJSaEfCqMcvWwiKvew" name="E"/>
+                <exported element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement" name="m1_deplacement"/>
+                <exported element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew|org.eventb.core.parameter#_LKgNgJSeEfCqMcvWwiKvew" name="destination"/>
+                <exported element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#'" name="INITIALISATION"/>
+                <exported element="/Ascenseur/c1_etage.buc|org.eventb.core.contextFile#c1_etage" name="c1_etage"/>
+                <exported element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.variable#_LKe_YZSeEfCqMcvWwiKvew" name="etage"/>
+                <exported element="/Ascenseur/m1_deplacement.bum|org.eventb.core.machineFile#m1_deplacement|org.eventb.core.event#_LKfmcZSeEfCqMcvWwiKvew" name="deplacer"/>
+            </export>
+        </export_table>
+        <graph is_sorted="true">
+            <node label="/Ascenseur/c1_etage.buc" mark="false" order_pos="0"/>
+            <node label="/Ascenseur/c3_demandes.buc" mark="false" order_pos="1"/>
+            <node label="/Ascenseur/c2_direction.buc" mark="false" order_pos="2"/>
+            <node label="/Ascenseur/m1_deplacement.bum" mark="false" order_pos="3">
+                <predecessor label="/Ascenseur/c1_etage.buc"/>
+            </node>
+            <node label="/Ascenseur/m2_direction.bum" mark="false" order_pos="4">
+                <predecessor label="/Ascenseur/c1_etage.buc"/>
+                <predecessor label="/Ascenseur/m1_deplacement.bum"/>
+                <predecessor label="/Ascenseur/c2_direction.buc"/>
+            </node>
+            <node label="/Ascenseur/m3_demandes.bum" mark="false" order_pos="5">
+                <predecessor label="/Ascenseur/c1_etage.buc"/>
+                <predecessor label="/Ascenseur/c2_direction.buc"/>
+                <predecessor label="/Ascenseur/m2_direction.bum"/>
+            </node>
+        </graph>
+        <unprocessed file="/Ascenseur/Test.bcm"/>
+        <unprocessed file="/Ascenseur/Question1.bcm"/>
+        <unprocessed file="/Ascenseur/Question1.bpo"/>
+        <unprocessed file="/Ascenseur/Question1.bpr"/>
+        <unprocessed file="/Ascenseur/Question1.bps"/>
+        <unprocessed file="/Ascenseur/m1_deplacement.bpr"/>
+        <unprocessed file="/Ascenseur/m1_deplacement.bcm"/>
+        <unprocessed file="/Ascenseur/m1_deplacement.bpo"/>
+        <unprocessed file="/Ascenseur/m1_deplacement.bps"/>
+        <unprocessed file="/Ascenseur/c1_etage.bcc"/>
+        <unprocessed file="/Ascenseur/c1_etage.bpo"/>
+        <unprocessed file="/Ascenseur/c1_etage.bpr"/>
+        <unprocessed file="/Ascenseur/c1_etage.bps"/>
+        <unprocessed file="/Ascenseur/c2_direction.bcc"/>
+        <unprocessed file="/Ascenseur/c2_direction.bpo"/>
+        <unprocessed file="/Ascenseur/c2_direction.bpr"/>
+        <unprocessed file="/Ascenseur/c2_direction.bps"/>
+        <unprocessed file="/Ascenseur/m2_direction.bcm"/>
+        <unprocessed file="/Ascenseur/m2_direction.bpo"/>
+        <unprocessed file="/Ascenseur/m2_direction.bpr"/>
+        <unprocessed file="/Ascenseur/m2_direction.bps"/>
+        <unprocessed file="/Ascenseur/m2_direction.bpo_tmp"/>
+        <unprocessed file="/Ascenseur/m2_direction.bcm_tmp"/>
+        <unprocessed file="/Ascenseur/c3_demandes.bcc"/>
+        <unprocessed file="/Ascenseur/c3_demandes.bpo"/>
+        <unprocessed file="/Ascenseur/c3_demandes.bpr"/>
+        <unprocessed file="/Ascenseur/c3_demandes.bps"/>
+        <unprocessed file="/Ascenseur/m3_demandes.bcm"/>
+        <unprocessed file="/Ascenseur/m3_demandes.bpo"/>
+        <unprocessed file="/Ascenseur/m3_demandes.bpr"/>
+        <unprocessed file="/Ascenseur/m3_demandes.bps"/>
+        <unprocessed file="/Ascenseur/m3_demandes.bcm_tmp"/>
+        <unprocessed file="/Ascenseur/m3_demandes.bpo_tmp"/>
+    </pim>
+    <delta_list/>
+    <indexer_registry>
+        <registry_entry element_type="org.eventb.core.machineFile">
+            <indexer id="machineIndexer"/>
+        </registry_entry>
+        <registry_entry element_type="org.eventb.core.contextFile">
+            <indexer id="contextIndexer"/>
+        </registry_entry>
+    </indexer_registry>
+</index_root>
